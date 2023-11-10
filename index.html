@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/resnavbar.css" />
+  <link rel="stylesheet" href="styles/third-content.css" />
+  <link rel="stylesheet" href="styles/fourth-content.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <link rel="icon" type="image/svg+xml" href="Images/favicon.svg">
+  <title>StackBlitz Blog</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="https://cdn.icon-icons.com/icons2/3915/PNG/512/stackblitz_logo_icon_249531.png" alt="BlitzLogo">
+      <p>
+        <span>Stack Blitz</span>
+        <span>/</span>
+        Blog
+      </p>
+    </div>
+    <ul>
+      <li>News</li>
+      <li>Engineering</li>
+      <li>Community Updates</li>
+      <li>Contact Sales</li>
+      <li>
+        <i class="fa fa-wifi fa-lg" aria-hidden="true"></i>
+      </li>
+      <li id="openNavbar">
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- NAVBAR RESPONSIVE HIDDEN -->
+  <div class="outside">
+    <div class="responsivNavbar">
+      <div class="navTop">
+        <div class="logo">
+          <img src="https://cdn.icon-icons.com/icons2/3915/PNG/512/stackblitz_logo_icon_249531.png" alt="BlitzLogo">
+          <p>
+            <span>Stack Blitz</span>
+            <span>/</span>
+            Blog
+          </p>
+        </div>
+        <p id="closeNavButton">
+          <i class="fa fa-times fa-lg" aria-hidden="true" style="color: #303031;"></i>
+        </p>
+      </div>
+
+      <div class="listBox">
+        <p>News</p>
+        <p>Engineering</p>
+        <p>Community Updates</p>
+      </div>
+      <div class="listBox">
+        <p>
+          <i class="fa fa-rss fa-lg" aria-hidden="true"></i>
+        </p>
+      </div>
+      <div class="listBox">
+        <p>Contact Sales</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="content">
+    <img src="https://blog.stackblitz.com/_astro/hero.f89085c0_1GXxmx.jpg" alt="blogstackblitz">
+    <div class="sideContent">
+      <div class="textTop">
+        <p>Engineering</p>
+        <p>October 24, 2023</p>
+      </div>
+      <div class="text-content">
+        <p>5 lessons design systems teams can learn from open-source maintainers</p>
+        <hr class="animation-line">
+      </div>
+      <p class="text-desc">Here, we’ve gathered 5 of the best lessons design systems teams can take from open source and
+        apply to their
+        work.</p>
+      <div class="author">
+        <p>Nick Moore</p>
+        <p>Guest Author</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECOND CONTENT -->
+  <div class="second-content">
+    <div class="card">
+      <img src="https://blog.stackblitz.com/_astro/hero.a2077268_1h2USH.jpg" alt="blog.stackblitz.com/">
+      <div class="text-info">
+        <div class="textTop">
+          <p>News & Announcements</p>
+          <p>October 24, 2023</p>
+        </div>
+        <div class="text-content">
+          <p>Announcing Native Language Support in WebContainers</p>
+          <hr class="animation-line">
+        </div>
+        <p class="text-desc">You can now run Python, jq, and other native languages, tools & runtimes with WASI in
+          WebContainers</p>
+        <div class="author">
+          <p>Dominic Elm</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://blog.stackblitz.com/_astro/hero.44dc2e9d_2cWu4n.jpg" alt="blog.stackblitz.com/">
+      <div class="text-info">
+        <div class="textTop">
+          <p>News & Announcements</p>
+          <p>October 24, 2023</p>
+        </div>
+        <div class="text-content">
+          <p>
+            Introducing StackBlitz Teams</p>
+          <hr class="animation-line">
+        </div>
+        <p class="text-desc">We're stoked to unveil the newest way to build the web with the web—StackBlitz Teams.</p>
+        <div class="author">
+          <p>Eric Simons</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://blog.stackblitz.com/_astro/hero.d9423131_Z2l8LfI.jpg" alt="blog.stackblitz.com/">
+      <div class="text-info">
+        <div class="textTop">
+          <p>News & Announcements</p>
+          <p>October 24, 2023</p>
+        </div>
+        <div class="text-content">
+          <p>
+            Introducing StackBlitz Teams</p>
+          <hr class="animation-line">
+        </div>
+        <p class="text-desc">We're stoked to unveil the newest way to build the web with the web—StackBlitz Teams.</p>
+        <div class="author">
+          <p>Eric Simons</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SECOND CONTENT END -->
+
+  <!-- THIRD CONTENT START -->
+  <div class="third-content">
+    <hr>
+    <div class="navbar-third-content">
+      <p>News & Announcements</p>
+      <p>View all from news</p>
+    </div>
+
+    <div class="main-third-content">
+      <img src="https://blog.stackblitz.com/_astro/hero.a2077268_Z2eMTN8.jpg" alt="blog.stackblitz.com">
+
+      <div>
+        <div class="text-list">
+          <div class="text-content">
+            <p>
+              Introducing StackBlitz Teams</p>
+            <hr class="animation-line">
+          </div>
+          <p class="text-desc">We're stoked to unveil the newest way to build the web with the web—StackBlitz Teams.</p>
+          <div class="author">
+            <p>Eric Simons</p>
+          </div>
+        </div>
+        <hr class="limit-line">
+        <div class="text-list">
+          <div class="text-content">
+            <p>
+              ViteConf is back!</p>
+            <hr class="animation-line">
+          </div>
+          <p class="text-desc">We’re excited to announce that the second ever ViteConf will take place online starting
+            October 5th.</p>
+          <div class="author">
+            <p>Eric Simons</p>
+          </div>
+        </div>
+        <hr class="limit-line">
+        <div class="text-list">
+          <div class="text-content">
+            <p>
+              npm, yarn and pnpm are now supported natively in WebContainers</p>
+            <hr class="animation-line">
+          </div>
+          <p class="text-desc">We have shipped native support for npm and with that, WebContainers now support all major
+            package managers.</p>
+          <div class="author">
+            <p>Eric Simons</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-text">
+        <div class="text-content">
+          <p>
+            Announcing Native Language Support in WebContainers</p>
+          <hr class="animation-line">
+        </div>
+        <p class="text-desc">You can now run Python, jq, and other native languages, tools & runtimes with WASI in
+          WebContainers</p>
+        <div class="author">
+          <p>Dominic Elm</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- THIRD CONTENT END -->
+
+  <!-- FOUTH CONTENT START -->
+  <div class="fourth-content">
+    <hr>
+    <div class="navbar-fourth-content">
+      <p>Engineering</p>
+      <p>View all from Engineering</p>
+    </div>
+
+    <div class="main-fourth-content">
+
+      <div>
+        <div class="text-list">
+          <div class="text-content">
+            <p>
+              Bringing Sharp to WebAssembly and WebContainers</p>
+            <hr class="animation-line">
+          </div>
+          <p class="text-desc">Challenges of porting native Node.js modules like Sharp to more platforms with
+            WebAssembly.</p>
+          <div class="author">
+            <p>Ingvar Stepanyan</p>
+          </div>
+        </div>
+        <hr class="limit-line">
+        <div class="text-list">
+          <div class="text-content">
+            <p>
+              The Atomic Waltz: Unraveling WebAssembly Issues in V8 and SpiderMonkey</p>
+            <hr class="animation-line">
+          </div>
+          <p class="text-desc">Deep dive into WebAssembly performance issues on Apple Silicon and browser engines.</p>
+          <div class="author">
+            <p>Dominic Elm</p>
+          </div>
+        </div>
+        <hr class="limit-line">
+        <div class="text-list">
+          <div class="text-content">
+            <p>
+              Now I am become the Destroyer of Threads</p>
+            <hr class="animation-line">
+          </div>
+          <p class="text-desc">Low-level hacking on multithreaded WebAssembly</p>
+          <div class="author">
+            <p>Roberto Vidal</p>
+          </div>
+        </div>
+      </div>
+
+      <img src="https://blog.stackblitz.com/_astro/hero.f89085c0_1GXxmx.jpg" alt="blog.stackblitz.com">
+
+      <div class="main-text">
+        <div class="text-content">
+          <p>
+            5 lessons design systems teams can learn from open-source maintainers</p>
+          <hr class="animation-line">
+        </div>
+        <p class="text-desc">Here, we’ve gathered 5 of the best lessons design systems teams can take from open source
+          and apply to their work.</p>
+        <div class="author">
+          <p>Nick Moore</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FOUTH CONTENT END -->
+
+  <!-- EXPLORE STACK BLITZ START -->
+  <div class="explore">
+    <div class="explore-logo">
+      <span>
+        <img src="https://blog.stackblitz.com/logo/bolt-color.svg" alt="Small Logo">
+      </span>
+      <span>
+        Explore more from StackBlitz
+      </span>
+    </div>
+    <div class="card-lists">
+      <div class="card-items">
+        <p>
+          <i class="fa-sharp fa-solid fa-users-line fa-xl" style="color: #a574d0;"></i>
+        </p>
+        <p class="headline-text">Join the Community</p>
+        <p class="desc-text">Get a hand, lend a hand, share your projects and be part of our growing community of
+          developers.</p>
+        <a href="#">Join the Discord</a>
+      </div>
+      <div class="card-items">
+        <p>
+          <i class="fa-solid fa-file-shield fa-xl" style="color: #bbe24a;"></i>
+        </p>
+        <p class="headline-text">Enterprise Server</p>
+        <p class="desc-text">The power of StackBlitz behind your firewall.</p>
+        <a href="#">Contact sales</a>
+      </div>
+      <div class="card-items">
+        <p>
+          <i class="fa-solid fa-swatchbook fa-xl" style="color: #ff8d69;"></i>
+        </p>
+        <p class="headline-text">Documentation</p>
+        <p class="desc-text">Learn StackBlitz in-depth, integrate into your workflows, and build your own apps on top of
+          WebContainer.</p>
+        <a href="#">Browse the Docs</a>
+      </div>
+      <div class="card-items">
+        <p>
+          <i class="fa-solid fa-rocket fa-xl" style="color: #8ed6ff;"></i>
+        </p>
+        <p class="headline-text">Work with us</p>
+        <p class="desc-text">Help make the world's software faster and more secure.
+        </p>
+        <a href="#">Check out open positions</a>
+      </div>
+    </div>
+  </div>
+  <!-- EXPLORE STACK BLITZ END -->
+
+  <!-- CONTACT START -->
+  <div class="contact">
+    <img src="https://blog.stackblitz.com/logo/bolt-comment.svg" alt="contact-img">
+    <p class="main-text">Subscribe to StackBlitz Updates</p>
+    <p class="second-text">A newsletter from StackBlitz covering engineering achievements, product features, and updates
+      from the community.</p>
+    <div class="input-email">
+      <input type="email" id="email" placeholder="Your email" required>
+      <button id="subscribe">Subscribe</button>
+    </div>
+  </div>
+  <!-- CONTACT END -->
+
+  <!-- CLOSING START -->
+  <div class="closing">
+    <div class="closing-content">
+      <h1>Using StackBlitz at work?</h1>
+      <p>Create in-browser preview apps for every issue or pull request, share private templates with your org, manage
+        your design system with zero overhead, and more.</p>
+      <a href="#">
+        <span>
+          <i class="fa-solid fa-user-group fa-sm" style="color: #454545;"></i>
+        </span>
+        Try StackBlitz Teams
+      </a>
+    </div>
+  </div>
+  <!-- CLOSING END -->
+
+  <!-- FOOTER START -->
+  <footer>
+    <div class="footer-items">
+      <div class="icon">
+        <img src="https://blog.stackblitz.com/logo/stackblitz-logo-color.svg" alt="logo.svg">
+      </div>
+      <div class="item1">
+        <p>Products</p>
+        <ul>
+          <li>Code Flow</li>
+          <li>Enterprise Server</li>
+          <li>WebContainer API</li>
+          <li>Web Publisher</li>
+        </ul>
+      </div>
+      <div class="item2">
+        <p>Platform</p>
+        <ul>
+          <li>Pricing</li>
+        </ul>
+      </div>
+      <div class="item3">
+        <p>Support</p>
+        <ul>
+          <li>Community</li>
+          <li>Docs</li>
+        </ul>
+      </div>
+      <div class="item4">
+        <p>Company</p>
+        <ul>
+          <li>Blog</li>
+          <li>Carrer</li>
+          <li>NewsLetter</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="social-media">
+      <div class="list-items">
+        <div class="list-items-text">
+          <p>© 2023 StackBlitz Inc.</p>
+          <p>Terms of Service</p>
+          <p>Privacy Policy</p>
+        </div>
+
+        <div class="list-items-icon">
+          <p>
+            <i class="fa-brands fa-twitter fa-lg" style="color: #ababab;"></i>
+          </p>
+          <p>
+            <i class="fa-brands fa-github fa-lg" style="color: #ababab;"></i>
+          </p>
+          <p>
+            <i class="fa-brands fa-discord fa-lg" style="color: #ababab;"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="last">
+      <p>StackBlitz Codeflow and the Infinite Pull Request logo are trademarks of StackBlitz Inc.</p>
+    </div>
+  </footer>
+  <!-- FOOTER END -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>

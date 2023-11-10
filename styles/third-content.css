@@ -1,0 +1,102 @@
+.third-content {
+  background-color: white;
+  padding: 100px 20px;
+  margin-top: 100px;
+}
+
+.third-content hr {
+  border: 1px solid #4852691c;
+}
+
+.third-content .navbar-third-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.third-content .navbar-third-content p:first-child {
+  font-size: 22px;
+  font-weight: 400;
+  color: #485269;
+}
+
+.third-content .navbar-third-content p:last-child {
+  font-size: 13px;
+  font-weight: 500;
+  color: #485269cf;
+}
+
+.third-content .navbar-third-content p:last-child:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.third-content .main-third-content {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.third-content .main-third-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.third-content .main-text {
+  margin-top: -7em;
+}
+
+.third-content .main-third-content .main-text .text-content {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.third-content .main-third-content .main-text .text-desc {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.third-content .main-third-content .author {
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 25px;
+  color: #485269;
+}
+
+.third-content .main-third-content .text-list .text-content {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.third-content .main-third-content .text-list .text-desc {
+  font-size: 14px;
+}
+
+.third-content .animation-line {
+  margin: 10px 0;
+}
+
+.third-content .limit-line {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .third-content .main-text {
+    margin-top: 0px;
+  }
+
+  .third-content .main-third-content {
+    grid-template-columns: 1fr;
+    /* Mengubah ke satu kolom */
+    grid-auto-rows: auto;
+    /* Mengatur ketinggian elemen sesuai konten */
+  }
+
+  .main-text {
+    grid-row: 2;
+    /* Mengubah posisi .main-text ke baris ketiga */
+  }
+}
